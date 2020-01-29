@@ -11,11 +11,9 @@ class Display extends React.Component {
     const { result } = this.props;
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Display component connected
-          </p>
-        </header>
+        <p>
+          Display component connected
+        </p>
         <p>
           result is:
           {result}

@@ -11,14 +11,9 @@ class Button extends React.Component {
     const { buttonName } = this.props;
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Display component connected
-          </p>
-        </header>
         <p>
           result is:
-          { buttonName}
+          { buttonName }
         </p>
       </div>
     );
