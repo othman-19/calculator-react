@@ -11,11 +11,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            App component connected
-          </p>
-        </header>
         <Display result="string" />
         <ButtonPanel />
       </div>

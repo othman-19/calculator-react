@@ -18,9 +18,6 @@ class ButtonPannel extends React.Component {
 
     return (
       <div className="App">
-        <p>
-          ButtonPannel component connected
-        </p>
         <div className="" id="G1">
           { groups[0].map(e => <Button buttonName={e} key={e} />) }
         </div>
