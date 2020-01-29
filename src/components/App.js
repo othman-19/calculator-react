@@ -1,17 +1,27 @@
 import React from 'react';
+import Display from './Display';
+// import Button from './Button';
+// import ButtonPanel from './ButtonPanel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload
-        </p>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            App component connected
+          </p>
+        </header>
+        <Display result="string" />
+      </div>
+    );
+  }
 }
 
 export default App;
