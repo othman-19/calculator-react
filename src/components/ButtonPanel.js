@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 class ButtonPannel extends React.Component {
   constructor(props) {
@@ -7,39 +8,33 @@ class ButtonPannel extends React.Component {
   }
 
   render() {
+    const groups = [
+      ['AC', '+/-', '%', '÷'],
+      ['7', '8', '9', 'X'],
+      ['4', '5', '6', '-'],
+      ['1', '2', '3', '+'],
+      ['0', '.', '='],
+    ];
+
     return (
       <div className="App">
         <p>
           ButtonPannel component connected
         </p>
         <div className="" id="G1">
-          <button type="submit">AC</button>
-          <button type="submit">+/-</button>
-          <button type="submit">%</button>
-          <button type="submit">+</button>
+          { groups[0].map(e => <Button buttonName={e} key={e} />) }
         </div>
         <div className="" id="G2">
-          <button type="submit">7</button>
-          <button type="submit">8</button>
-          <button type="submit">9</button>
-          <button type="submit">X</button>
+          { groups[1].map(e => <Button buttonName={e} key={e} />) }
         </div>
         <div className="" id="G3">
-          <button type="submit">4</button>
-          <button type="submit">6</button>
-          <button type="submit">5</button>
-          <button type="submit">-</button>
+          { groups[2].map(e => <Button buttonName={e} key={e} />) }
         </div>
         <div className="" id="G4">
-          <button type="submit">1</button>
-          <button type="submit">2</button>
-          <button type="submit">3</button>
-          <button type="submit">+</button>
+          { groups[3].map(e => <Button buttonName={e} key={e} />) }
         </div>
         <div className="" id="G5">
-          <button type="submit">0</button>
-          <button type="submit">,</button>
-          <button type="submit">=</button>
+          { groups[4].map(e => <Button buttonName={e} key={e} />) }
         </div>
       </div>
     );

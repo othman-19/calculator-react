@@ -10,12 +10,9 @@ class Button extends React.Component {
   render() {
     const { buttonName } = this.props;
     return (
-      <div className="App">
-        <p>
-          result is:
-          { buttonName }
-        </p>
-      </div>
+      <button type="submit">
+        { buttonName }
+      </button>
     );
   }
 }
