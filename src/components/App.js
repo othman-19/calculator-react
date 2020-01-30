@@ -11,9 +11,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Display result="string" />
-        <ButtonPanel />
+      <div className="container">
+        <header className="header">Easy Online Calculator</header>
+        <div className="App">
+          <Display />
+          <ButtonPanel />
+        </div>
+        <footer className="footer">&copy; Developed by Othmane Namani, 2020</footer>
       </div>
     );
   }

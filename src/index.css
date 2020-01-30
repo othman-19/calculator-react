@@ -9,11 +9,29 @@ body {
 
 * {
   box-sizing: border-box;
-} 
+}
+
+.container{
+ 
+}
+
+.header {
+  text-align: center;
+  margin: 2%;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.footer {
+  text-align: center;
+  margin: 2%;
+  font-size: 0.9em;
+}
 
 
 .App {
   width: 700px;
+  margin: auto;
   background: rgb(230, 228, 228);
   display: flex;
   flex-direction: column;
@@ -23,17 +41,29 @@ body {
   background: silver;
   height: 100px;
   display: flex;
-  flex-direction: column;  
-  align-items: flex-end;
-  padding: 2% 2%;
-}
-
-.group {
-  height: 100px;
+  justify-content: flex-end;
+  align-items:center;
+  padding : 0 5%;
 }
 
 .result {
   color: white;
   font-weight: bold;
+  font-size: 3em;
 }
 
+.group {
+  height: 100px;
+  display: flex;
+}
+
+.Button {
+  width: 25%;
+  border: 1px solid rgb(168, 181, 207);
+  font-weight: 500;
+  font-size: 2em;
+}
+
+#btn-0 {
+  width: 50%;
+}
