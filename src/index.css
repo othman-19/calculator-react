@@ -11,10 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-.container{
- 
-}
-
 .header {
   text-align: center;
   margin: 2%;
@@ -38,7 +34,7 @@ body {
 }
 
 .Display {
-  background: silver;
+  background: rgb(99, 97, 97);
   height: 100px;
   display: flex;
   justify-content: flex-end;
@@ -59,11 +55,12 @@ body {
 
 .Button {
   width: 25%;
+  background-color: rgb(219, 157, 42);
   border: 1px solid rgb(168, 181, 207);
   font-weight: 500;
   font-size: 2em;
 }
 
-#btn-0 {
+.wide {
   width: 50%;
 }
