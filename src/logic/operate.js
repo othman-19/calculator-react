@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big';
 
 const operate = ((numberOne, numberTwo, operation) => {
   try {
@@ -19,10 +19,10 @@ const operate = ((numberOne, numberTwo, operation) => {
     if (operation === '/' && num2 !== 0) {
       return Big(num1).div(Big(num2)).toString();
     }
-    return 'Error!';
   } catch (e) {
-    return '0';
+    return 'Error!';
   }
+  return 'Error';
 })();
 
 export default operate;
