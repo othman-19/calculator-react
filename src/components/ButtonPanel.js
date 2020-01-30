@@ -12,19 +12,19 @@ const ButtonPannel = () => {
 
   return (
     <div className="App">
-      <div className="" id="G1">
+      <div className="group" id="G1">
         { groups[0].map(e => <Button buttonName={e} key={e} />) }
       </div>
-      <div className="" id="G2">
+      <div className="group" id="G2">
         { groups[1].map(e => <Button buttonName={e} key={e} />) }
       </div>
-      <div className="" id="G3">
+      <div className="group" id="G3">
         { groups[2].map(e => <Button buttonName={e} key={e} />) }
       </div>
-      <div className="" id="G4">
+      <div className="group" id="G4">
         { groups[3].map(e => <Button buttonName={e} key={e} />) }
       </div>
-      <div className="" id="G5">
+      <div className="group" id="G5">
         { groups[4].map(e => <Button buttonName={e} key={e} />) }
       </div>
     </div>

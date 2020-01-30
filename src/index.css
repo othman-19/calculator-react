@@ -28,6 +28,10 @@ body {
   padding: 2% 2%;
 }
 
+.group {
+  height: 100px;
+}
+
 .result {
   color: white;
   font-weight: bold;
