@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
-  <div className="App">
-    <p>
-      result is:
+  <div className="Display">
+    result
+    <p className="result">
       {result}
     </p>
   </div>
