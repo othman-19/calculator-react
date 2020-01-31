@@ -7,17 +7,26 @@ import calculate from '../logic/calculate';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
+  handleClick(buttonName) {
+    const newCalcul = calculate(this.state, buttonName);
+    this.setState({ ...newCalcul, currentButton: buttonName });
   }
 
   render() {
-    calculate();
+    const { next, total } = this.state;
     return (
       <div className="container">
         <header className="header">Easy Online Calculator</header>
         <div className="App">
-          <Display />
-          <ButtonPanel />
+          <Display result={next || total} />
+          <ButtonPanel clickHandler={btn => this.handleClick(btn)} />
         </div>
         <footer className="footer">&copy; Developed by Othmane Namani, 2020</footer>
       </div>
