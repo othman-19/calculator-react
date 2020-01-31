@@ -26,7 +26,7 @@ class App extends React.Component {
         <header className="header">Easy Online Calculator</header>
         <div className="App">
           <Display result={next || total} />
-          <ButtonPanel clickHandler={btn => this.handleClick(btn)} />
+          <ButtonPanel clickHandler={this.handleClick} />
         </div>
         <footer className="footer">&copy; Developed by Othmane Namani, 2020</footer>
       </div>
