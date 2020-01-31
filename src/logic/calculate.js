@@ -10,11 +10,21 @@ const calculate = ((data, buttonName) => {
     return total;
   }
   if (buttonName === 'AC') {
-    total = 0;
+    total = '0';
+    next = '0';
+    operation = null;
     return total;
   }
-  if (buttonName === '.' && next !== false) {
+  if (buttonName === '.' && next) {
     total = `${total}.${next}`;
+    return total;
+  }
+  if (buttonName === '.' && total === undefined && next === undefined) {
+    total = '0';
+    return total;
+  }
+  if (Number(buttonName)) {
+    total += buttonName;
     return total;
   }
   const result = operate(total, next, operation);
