@@ -1,7 +1,7 @@
 # PROJECT: Calculator_React
 The Calculator project comes with the React section. In this project will learn how to build a very simple React application. will work in a real-world project for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that will need to implement.
 
-![screenshot](./screenshot.png)
+![screenshot](./Screenshot.png)
 
 > This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
