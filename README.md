@@ -1,5 +1,9 @@
 # PROJECT: Calculator_React
-The Calculator project comes with the React section. In this project will learn how to build a very simple React application. will work in a real-world project for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that will need to implement.
+
+This application is a browser calculator built with React.js.
+It is implemented with needed functional and technical requirements.
+
+In this application the user is able to do a lot of mathematical operations with very easy, clear, and colored user interface (UI).
 
 ![screenshot](./Screenshot.png)
 
@@ -11,13 +15,11 @@ The Calculator project comes with the React section. In this project will learn 
 
 ## Built With
 
-- Node.js
 - React
-- React-DOM
-- React-Create-App
 - npm
 - CSS
 - ES6
+- HTML5
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -62,7 +64,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Author(s)
 
-1. [Othamane Naamani](https://github.com/othman-19/).
+[Othmane Namani](https://github.com/othman-19/).  
+[Email: othmanenaamani@gmail.com](mailto:othmanenaamani@gmail.com).  
+[Portfolio](https://othman-19.github.io/my_portfolio/).  
+[LinkedIn](https://www.linkedin.com/in/othman-namani/).  
+[twitter](https://twitter.com/ONaamani).  
+[DEV Community](https://dev.to/othman).  
+[Angel List](https://angel.co/othmane-namani).  
 
 ## 🤝 Contributing
 
@@ -73,5 +81,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
