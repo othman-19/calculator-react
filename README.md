@@ -11,7 +11,7 @@ In this application the user is able to do a lot of mathematical operations with
 
 ## Live Demo
 
-[Live Demo Link](https://app.netlify.com/sites/easy-calculator-othman/settings/general) .
+[Live Demo Link](https://easy-calculator-othman.netlify.app/) .
 
 ## Built With
 
